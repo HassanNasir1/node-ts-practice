@@ -2,6 +2,7 @@
   "extends": "./node_modules/gts/",
   "rules": {
     "@typescript-eslint/no-explicit-any": "off",
-    "n/no-extraneous-import": "off"
+    "n/no-extraneous-import": "off",
+    "linebreak-style": ["error", "unix"]
   }
 }
