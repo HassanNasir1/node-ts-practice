@@ -7,7 +7,8 @@
     "node": "18.17.0"
   },
   "scripts": {
-    "lint": "gts lint",
+  "lint": "eslint . --ext .ts",
+  "lint:fix": "eslint . --ext .ts --fix",
     "clean": "gts clean",
     "fix": "gts fix",
     "copy-files": "copyfiles -u 1 src/constants/templates/*.html build/src",
