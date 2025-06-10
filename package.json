@@ -1,7 +1,7 @@
 {
-  "name": "todo-project-name",
+  "name": "node-ts-practice",
   "version": "1.0.0",
-  "description": "todo-project-description",
+  "description": "node-ts-practice",
   "main": "build/src/main.js",
   "engines": {
     "node": "18.17.0"
@@ -17,7 +17,7 @@
     "dev": "nodemon src/main.ts",
     "dev:debug": "nodemon --inspect src/main.ts"
   },
-  "author": "todo-author-name",
+  "author": "Hassan",
   "license": "ISC",
   "repository": {
     "type": "git",
